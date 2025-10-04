@@ -154,7 +154,7 @@ export default function HomePage() {
     {/* Testimonial 1 */}
     <div className="flex items-start gap-4 bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow">
       <img
-        src="/user1.jpg"
+        src="/white.jpg"
         alt="Akash Aman"
         className="w-16 h-16 rounded-full object-cover"
       />
@@ -173,13 +173,13 @@ export default function HomePage() {
     {/* Testimonial 2 */}
     <div className="flex items-start gap-4 bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow">
       <img
-        src="/user2.jpg"
+        src="/women.jpg"
         alt="Suvendu Nayak"
         className="w-16 h-16 rounded-full object-cover"
       />
       <div>
         <h3 className="font-bold text-lg text-gray-900 dark:text-white">
-          Suvendu Nayak
+          Simran Bajwa
         </h3>
         <p className="text-gray-600 dark:text-gray-300">
           I love how Jito fantasy stock trading app lets me compete with
@@ -191,7 +191,7 @@ export default function HomePage() {
     {/* Testimonial 3 */}
     <div className="flex items-start gap-4 bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow">
       <img
-        src="/user3.jpg"
+        src="/black.jpg"
         alt="Kumar Yash"
         className="w-16 h-16 rounded-full object-cover"
       />
@@ -210,7 +210,7 @@ export default function HomePage() {
     {/* Testimonial 4 */}
     <div className="flex items-start gap-4 bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow">
       <img
-        src="/user4.jpg"
+        src="/blond.jpg"
         alt="Anuroop Gireesan"
         className="w-16 h-16 rounded-full object-cover"
       />
