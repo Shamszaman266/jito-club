@@ -133,13 +133,18 @@ export default function HowToPlay() {
             accurate predictions!
           </p>
           <ol className="list-decimal list-inside text-lg text-gray-500 dark:text-gray-400 space-y-2">
-            <li>Select a stock you want to predict.</li>
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
+            Selecting a Game:
+          </h3>
+            <li>Open the app and navigate to &quot;Bull vs Bear&quot; game section
+.</li>
             <li>
-              Choose <b>“Bull”</b> if you think the price will go up or{" "}
-              <b>“Bear”</b> if it will go down.
+              Choose either the free or paid game option based on your preference and budget
+
             </li>
-            <li>Confirm your prediction and wait for results.</li>
-            <li>Win exciting rewards for correct forecasts!</li>
+            <li>Note that paid games require a minimum entry fee of Rs2
+</li>
+            
           </ol>
           <div className="flex justify-center mt-6">
             <img
@@ -160,13 +165,22 @@ export default function HowToPlay() {
             Game Overview
           </h2>
           <p className="text-lg text-gray-500 dark:text-gray-400 mb-6">
-            The <b>Classic</b> mode offers a simple stock prediction experience
-            with fixed odds — perfect for quick play sessions!
+            The <b>Classic</b> is a stock prediction game where you will predict the percentage change of a stock for the day. Win prizes by predicting if the market will close in green or red. The game offers both free and paid options, with the opportunity to win prizes daily.
           </p>
           <ol className="list-decimal list-inside text-lg text-gray-500 dark:text-gray-400 space-y-2">
-            <li>Select your favorite stock.</li>
-            <li>Predict the closing price accurately.</li>
-            <li>Win prizes based on your precision!</li>
+
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
+            Selecting a Game:
+          </h3>
+
+            <li>Open the app and navigate to &quot;Classic&quot; game section
+</li>
+            <li>Choose either the free or paid game option based on your preference and budget
+
+</li>
+            <li>Note that paid games require a minimum entry fee of Rs2
+
+</li>
           </ol>
           <div className="flex justify-center mt-6">
             <img
