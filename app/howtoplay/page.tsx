@@ -12,7 +12,7 @@ export default function HowToPlay() {
       {/* Game Tabs */}
       <div className="flex justify-center mb-10 gap-4">
         <button onClick={() => setSelectedTab("target")}
-          className={`px-6 py-2 rounded-full font-semibold transition ${
+          className={`hover:cursor-pointer px-6 py-2 rounded-full font-semibold transition ${
             selectedTab === "target"
               ? "bg-blue-600 text-white"
               : "border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
@@ -22,7 +22,7 @@ export default function HowToPlay() {
         </button>
          <button
           onClick={() => setSelectedTab("bull")}
-          className={`px-6 py-2 rounded-full font-semibold transition ${
+          className={`hover:cursor-pointer px-6 py-2 rounded-full font-semibold transition ${
             selectedTab === "bull"
               ? "bg-blue-600 text-white"
               : "border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
@@ -32,7 +32,7 @@ export default function HowToPlay() {
         </button>
         <button
           onClick={() => setSelectedTab("classic")}
-          className={`px-6 py-2 rounded-full font-semibold transition ${
+          className={`hover:cursor-pointer px-6 py-2 rounded-full font-semibold transition ${
             selectedTab === "classic"
               ? "bg-blue-600 text-white"
               : "border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
