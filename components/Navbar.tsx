@@ -41,8 +41,11 @@ export default function Navbar() {
       <li>
         <Link
                 href="/"
-                className="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded-sm 
-                           md:bg-transparent md:text-blue-700 md:dark:text-blue-500"
+                className="block py-2 px-3 md:p-0 text-gray-900 rounded-sm 
+                          hover:bg-gray-100 
+                           md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 
+                           dark:text-white dark:hover:bg-gray-700 dark:hover:text-white 
+                           md:dark:hover:bg-transparent dark:border-gray-700"
                 aria-current="page"
               >
                 Home
@@ -59,6 +62,19 @@ export default function Navbar() {
               >
                 How to Play
                 </Link>
+      </li>
+
+      <li>
+        <Link
+                href="/blog"
+                className="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 
+                           md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 
+                           dark:text-white dark:hover:bg-gray-700 dark:hover:text-white 
+                           md:dark:hover:bg-transparent dark:border-gray-700"
+                aria-current="page"
+              >
+                Blog
+              </Link>
       </li>
       
     </ul>
